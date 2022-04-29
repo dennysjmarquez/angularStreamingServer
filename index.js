@@ -14,6 +14,9 @@ app.use(helmet());
 // Lectura y parseo del Body
 app.use(express.json());
 
+// Rutas
+app.use('/api/movies', require('./routes/movies.route'));
+
 // Inicia el servidor de express
 app.listen(SERVER_PORT, (error) => {
 	if (error) {
