@@ -1,7 +1,14 @@
 const { Router } = require('express');
-const { getMovies } = require('../controllers/movies.controller');
 const router = Router();
 
-router.get('/', [], getMovies);
+// Ruta /api/movies
+
+// Controllers
+const { getMovies } = require('../controllers/movies.controller');
+
+// middlewares
+const { validateJWT } = require('../middlewares/validate-jwt.middleware');
+
+router.get('/', [validateJWT], getMovies);
 
 module.exports = router;

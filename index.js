@@ -17,6 +17,15 @@ app.use(express.json());
 // Rutas
 app.use('/api/movies', require('./routes/movies.route'));
 
+// Manejo de los errores del middlewares validateJWT
+app.use(function (err, req, res, next) {
+	if (err.name === 'UnauthorizedError') {
+		res.status(401).send('invalid token...');
+	} else {
+		next(err);
+	}
+});
+
 // Inicia el servidor de express
 app.listen(SERVER_PORT, (error) => {
 	if (error) {
