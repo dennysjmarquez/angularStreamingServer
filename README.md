@@ -1,8 +1,10 @@
 # Servidor para el proyecto (angularStreamingServer)
 
-Este es un servidor de Node.js que implementa a helmet para la protección de ataques y cors para limitar el acceso a la API.
+Este es un servidor de Node.js que implementa a helmet para la protección de ataques y cors para limitar el acceso a la API.  
 
 Este servidor sirve un archivo JSON como dB en un único endPoint protegido por un token de auth0.
+
+Db de Películas con su Título, descripción, tipo de película, imagen y fecha
 
 ## Como hacerlo funcionar 
 
