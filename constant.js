@@ -1,9 +1,10 @@
 // Dominio y audience de auth0
-const AUTH0_AUDIENCE = process.env.AUTH0_AUDIENCE || 'dennysjmarquez.angularStreaming';
-const AUTH0_DOMAIN = process.env.AUTH0_DOMAIN || 'dennysjmarquez.auth0.com';
+const AUTH0_AUDIENCE = process.env.AUTH0_AUDIENCE;
+const AUTH0_DOMAIN = process.env.AUTH0_DOMAIN;
 
 // Dominós permitidos para la consulta de la API
-const CORS_CLIENT_ORIGINS = ['http://localhost:5200'];
+const CORS_CLIENT_ORIGIN = process.env.CORS_CLIENT_ORIGIN;
+const CORS_CLIENT_ORIGINS = [CORS_CLIENT_ORIGIN];
 
 // Puerto para el servidor
 const normalizePort = (port) => parseInt(port, 10);

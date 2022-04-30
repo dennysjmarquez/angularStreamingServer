@@ -1,4 +1,4 @@
-require('dotenv').config();
+require('dotenv-flow').config();
 const { CORS_CLIENT_ORIGINS, SERVER_PORT } = require('./constant');
 const express = require('express');
 const cors = require('cors');
