@@ -12,6 +12,6 @@ const normalizePort = (port) => parseInt(port, 10);
 module.exports = {
 	AUTH0_AUDIENCE,
 	AUTH0_DOMAIN,
-	SERVER_PORT: normalizePort(process.env.PORT || 3800),
+	SERVER_PORT: normalizePort(process.env.PORT),
 	CORS_CLIENT_ORIGINS,
 };
