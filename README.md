@@ -12,7 +12,7 @@ Instale las dependencias del proyecto:
 npm install
 ```
 
-Cree un archivo .env en el directorio del proyecto y agregue las siguientes configuraciones:
+Cree un archivo **.env** en el directorio del proyecto y agregue las siguientes configuraciones:
 
 ```bash
 PORT=
@@ -21,13 +21,13 @@ AUTH0_AUDIENCE=
 AUTH0_DOMAIN=
 ```
 
-El AUTH0_AUDIENCE y AUTH0_DOMAIN lo puede obtener, en Auth0 en el Dashboard.
+El **AUTH0_AUDIENCE** y **AUTH0_DOMAIN** lo puede obtener, en Auth0 en el Dashboard.
 
 https://manage.auth0.com/dashboard/
 
-CLIENT_ORIGIN_URL es la URL del cliente y PORT es el puerto en el que se va a montar el servidor
+**CLIENT_ORIGIN_URL** es la URL del cliente y **PORT** es el puerto en el que se va a montar el servidor
 
-Ya con las configuraciones en .env corra el servidor con el siguiente comando:
+Ya con las configuraciones en **.env** corra el servidor con el siguiente comando:
 
 ```bash
 npm start
