@@ -1,4 +1,4 @@
-# Servidor para el proyecto (angularStreamingServer)
+# Servidor para el proyecto (angularStreaming)
 
 Este es un servidor de Node.js que implementa a helmet para la protección de ataques y cors para limitar el acceso a la API.  
 
