@@ -34,7 +34,7 @@ Ya con las configuraciones en **.env** corra el servidor con el siguiente comand
 ```bash
 npm start
 ```
-Para servir cualquier **página estática** y idea para agregar la versión compilada para producción de **angularStreaming**, lo compilas y lo agregas en la carpeta **public** de este servidor **remplazando el index.html** por el de tu proyecto.
+Para servir **páginas estáticas** agregar una versión compilada para producción de **angularStreaming**, la compilas y la agregas en la carpeta **public** de este servidor **remplazando el index.html** por el de tu proyecto.
 
 **Proyecto angularStreaming aquí https://github.com/dennysjmarquez/angularStreamingServer**
 
