@@ -36,6 +36,6 @@ npm start
 ```
 Para servir **páginas estáticas** agregar una versión compilada para producción de **angularStreaming**, la compilas y la agregas en la carpeta **public** de este servidor **remplazando el index.html** por el de tu proyecto.
 
-**Proyecto angularStreaming aquí https://github.com/dennysjmarquez/angularStreamingServer**
+**Proyecto angularStreaming aquí https://github.com/dennysjmarquez/angularStreaming**
 
 
