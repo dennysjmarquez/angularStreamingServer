@@ -8,7 +8,7 @@ Db de Películas con su Título, descripción, tipo de película, imagen y fecha
 
 <img src="https://miro.medium.com/max/1400/1*ZH1DKy8S7pHoJkuy1Un1KQ.jpeg"/>
 
-**la puedes encontrar aquí :**
+**Más información la puedes encontrar aquí :**
 [https://dennysjmarquez.medium.com/angular-13-cl%C3%A1sica-plataforma-de-movie-7906b13eaee3](https://dennysjmarquez.medium.com/angular-13-cl%C3%A1sica-plataforma-de-movie-7906b13eaee3)
 
 ## Como hacerlo funcionar 
