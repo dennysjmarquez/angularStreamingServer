@@ -6,7 +6,7 @@ Este servidor sirve un archivo JSON como dB en un único endPoint protegido por 
 
 Db de Películas con su Título, descripción, tipo de película, imagen y fecha
 
-<img src="https://dennysjmarquez.medium.com/angular-13-cl%C3%A1sica-plataforma-de-movie-7906b13eaee3"/>
+<img src="https://miro.medium.com/max/1400/1*ZH1DKy8S7pHoJkuy1Un1KQ.jpeg"/>
 
 ## Como hacerlo funcionar 
 
